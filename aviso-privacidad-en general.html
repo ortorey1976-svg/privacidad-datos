@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aviso de Privacidad — Dr. Rey Armando Cárdenas Acuña · Ortopedia y Traumatología</title>
+<meta name="description" content="Aviso de Privacidad Integral conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP). Consultorio del Dr. Rey Armando Cárdenas Acuña, Ortopedia y Traumatología, Mérida, Yucatán.">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1A1A2E;
+    --ink-light: #3D3D5C;
+    --ink-muted: #7A7A9A;
+    --gold: #C8963E;
+    --gold-light: #E8B86D;
+    --cream: #FAF8F3;
+    --cream-dark: #F0EDE5;
+    --rule: #DDD8CC;
+    --teal: #2A7B7C;
+    --teal-light: #E8F4F4;
+    --white: #FFFFFF;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Source Serif 4', Georgia, serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.75;
+  }
+
+  /* ─── HEADER ─────────────────────────────── */
+  .masthead {
+    background: var(--ink);
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .masthead::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 79px,
+        rgba(200,150,62,0.06) 79px,
+        rgba(200,150,62,0.06) 80px
+      );
+  }
+  .masthead-inner {
+    position: relative;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 56px 40px 48px;
+    text-align: center;
+  }
+  .masthead-eyebrow {
+    font-family: 'Source Serif 4', serif;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 20px;
+  }
+  .masthead-rule {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .masthead-rule::before,
+  .masthead-rule::after {
+    content: '';
+    height: 1px;
+    width: 60px;
+    background: linear-gradient(90deg, transparent, var(--gold));
+  }
+  .masthead-rule::after {
+    background: linear-gradient(270deg, transparent, var(--gold));
+  }
+  .masthead-diamond {
+    width: 6px; height: 6px;
+    background: var(--gold);
+    transform: rotate(45deg);
+  }
+  .masthead h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(24px, 4vw, 36px);
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+  }
+  .masthead h1 em {
+    font-style: italic;
+    color: var(--gold-light);
+  }
+  .masthead-sub {
+    font-size: 14px;
+    color: rgba(255,255,255,0.55);
+    font-weight: 300;
+    margin-top: 16px;
+    letter-spacing: 0.5px;
+  }
+  .masthead-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+    background: rgba(200,150,62,0.15);
+    border: 1px solid rgba(200,150,62,0.35);
+    border-radius: 3px;
+    padding: 8px 18px;
+    font-size: 12px;
+    color: var(--gold-light);
+    letter-spacing: 1px;
+  }
+
+  /* ─── NAV TABLE OF CONTENTS ─────────────── */
+  .toc-bar {
+    background: var(--cream-dark);
+    border-bottom: 1px solid var(--rule);
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(26,26,46,0.07);
+  }
+  .toc-inner {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .toc-inner::-webkit-scrollbar { display: none; }
+  .toc-link {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    text-decoration: none;
+    padding: 14px 16px;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+    font-family: 'Source Serif 4', serif;
+    font-weight: 400;
+  }
+  .toc-link:hover {
+    color: var(--teal);
+    border-bottom-color: var(--teal);
+  }
+
+  /* ─── MAIN CONTENT ───────────────────────── */
+  .doc {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 60px 40px 80px;
+  }
+
+  .update-notice {
+    background: var(--teal-light);
+    border-left: 3px solid var(--teal);
+    border-radius: 0 4px 4px 0;
+    padding: 14px 20px;
+    margin-bottom: 48px;
+    font-size: 13px;
+    color: var(--teal);
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  /* SECTION */
+  .section {
+    margin-bottom: 56px;
+    padding-bottom: 56px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  .section-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+
+  .section h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(20px, 3vw, 26px);
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.2;
+    margin-bottom: 24px;
+    position: relative;
+    padding-left: 20px;
+  }
+  .section h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 3px;
+    height: calc(100% - 8px);
+    background: var(--gold);
+    border-radius: 2px;
+  }
+
+  .section h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--ink-light);
+    margin: 28px 0 12px;
+    font-style: italic;
+  }
+
+  p {
+    margin-bottom: 16px;
+    color: var(--ink-light);
+  }
+  p:last-child { margin-bottom: 0; }
+
+  strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  /* INFO BLOCK */
+  .info-block {
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 24px 28px;
+    margin: 20px 0;
+  }
+  .info-block .info-row {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 8px 20px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--cream-dark);
+    align-items: start;
+  }
+  .info-block .info-row:last-child { border-bottom: none; }
+  .info-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ink-muted);
+    font-weight: 600;
+    padding-top: 2px;
+  }
+  .info-value {
+    font-size: 14px;
+    color: var(--ink);
+  }
+
+  /* LIST */
+  ul.doc-list {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+  }
+  ul.doc-list li {
+    padding: 8px 0 8px 24px;
+    position: relative;
+    color: var(--ink-light);
+    border-bottom: 1px solid var(--cream-dark);
+    font-size: 15px;
+  }
+  ul.doc-list li:last-child { border-bottom: none; }
+  ul.doc-list li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+    font-size: 7px;
+    top: 14px;
+  }
+
+  ol.doc-list {
+    list-style: none;
+    counter-reset: doc-counter;
+    padding: 0;
+    margin: 16px 0;
+  }
+  ol.doc-list li {
+    counter-increment: doc-counter;
+    padding: 10px 0 10px 40px;
+    position: relative;
+    color: var(--ink-light);
+    border-bottom: 1px solid var(--cream-dark);
+    font-size: 15px;
+  }
+  ol.doc-list li:last-child { border-bottom: none; }
+  ol.doc-list li::before {
+    content: counter(doc-counter, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 700;
+    top: 12px;
+  }
+
+  /* HIGHLIGHT BOX */
+  .highlight-box {
+    background: linear-gradient(135deg, #1A1A2E 0%, #2A2A4E 100%);
+    border-radius: 8px;
+    padding: 28px 32px;
+    margin: 24px 0;
+    color: var(--white);
+    position: relative;
+    overflow: hidden;
+  }
+  .highlight-box::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+  }
+  .highlight-box p {
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+  .highlight-box p:last-child { margin-bottom: 0; }
+  .highlight-box strong { color: var(--gold-light); }
+
+  /* RIGHTS GRID */
+  .rights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin: 20px 0;
+  }
+  .right-card {
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--teal);
+    border-radius: 4px;
+    padding: 20px;
+  }
+  .right-initial {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--teal);
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .right-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .right-desc {
+    font-size: 12px;
+    color: var(--ink-muted);
+    line-height: 1.5;
+  }
+
+  /* CONTACT FINAL */
+  .contact-final {
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 32px;
+    margin-top: 24px;
+    text-align: center;
+  }
+  .contact-final h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: var(--ink);
+    margin-bottom: 8px;
+    font-style: normal;
+  }
+  .contact-final p {
+    font-size: 14px;
+    color: var(--ink-muted);
+    margin-bottom: 20px;
+  }
+  .contact-chips {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contact-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--cream);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 10px 18px;
+    font-size: 13px;
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Source Serif 4', serif;
+    transition: all 0.2s;
+  }
+  .contact-chip:hover {
+    background: var(--teal-light);
+    border-color: var(--teal);
+    color: var(--teal);
+  }
+  .chip-icon { font-size: 16px; }
+
+  /* FOOTER */
+  footer {
+    background: var(--ink);
+    padding: 32px 40px;
+    text-align: center;
+  }
+  footer p {
+    color: rgba(255,255,255,0.4);
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+  footer a {
+    color: var(--gold);
+    text-decoration: none;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .masthead-inner { padding: 40px 24px 36px; }
+    .doc { padding: 40px 24px 60px; }
+    .toc-inner { padding: 0 16px; }
+    .info-block .info-row { grid-template-columns: 1fr; }
+    .rights-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-eyebrow">Documento Legal Oficial</div>
+    <div class="masthead-rule"><div class="masthead-diamond"></div></div>
+    <h1>Aviso de Privacidad <em>Integral</em></h1>
+    <div class="masthead-sub">
+      Dr. Rey Armando Cárdenas Acuña · Ortopedia y Traumatología<br>
+      Mérida, Yucatán, México
+    </div>
+    <div class="masthead-badge">
+      <span>⚖</span>
+      LFPDPPP — Ley Federal de Protección de Datos Personales en Posesión de los Particulares
+    </div>
+  </div>
+</header>
+
+<!-- TABLE OF CONTENTS NAV -->
+<nav class="toc-bar">
+  <div class="toc-inner">
+    <a class="toc-link" href="#responsable">Responsable</a>
+    <a class="toc-link" href="#datos">Datos</a>
+    <a class="toc-link" href="#finalidades">Finalidades</a>
+    <a class="toc-link" href="#transferencias">Transferencias</a>
+    <a class="toc-link" href="#derechos">Derechos ARCO</a>
+    <a class="toc-link" href="#consentimiento">Consentimiento</a>
+    <a class="toc-link" href="#cookies">Cookies</a>
+    <a class="toc-link" href="#cambios">Cambios</a>
+    <a class="toc-link" href="#contacto">Contacto</a>
+  </div>
+</nav>
+
+<!-- MAIN DOCUMENT -->
+<main class="doc">
+
+  <div class="update-notice">
+    <span>📅</span>
+    <div>
+      <strong>Fecha de última actualización:</strong> Marzo de 2026. El presente aviso cumple con lo establecido en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP), su Reglamento y los Lineamientos del Aviso de Privacidad emitidos por el INAI.
+    </div>
+  </div>
+
+  <!-- 1. RESPONSABLE -->
+  <section class="section" id="responsable">
+    <div class="section-number">Sección I</div>
+    <h2>Identidad y Domicilio del Responsable</h2>
+    <p>
+      El <strong>Dr. Rey Armando Cárdenas Acuña</strong>, médico especialista en Ortopedia y Traumatología, con cédula profesional de especialidad expedida por la Dirección General de Profesiones de la SEP, en su carácter de responsable del tratamiento de datos personales, con fundamento en los artículos 15 y 16 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, hace de su conocimiento el presente Aviso de Privacidad.
+    </p>
+    <div class="info-block">
+      <div class="info-row">
+        <div class="info-label">Responsable</div>
+        <div class="info-value">Dr. Rey Armando Cárdenas Acuña</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Especialidad</div>
+        <div class="info-value">Ortopedia y Traumatología · Cirugía Artroscópica · Reemplazo Articular</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Domicilio fiscal</div>
+        <div class="info-value">Edificio Cenit Medical Center, Piso PH, Consultorio 1114<br>Calle 15 No. 501, Col. Altabrisa, C.P. 97130<br>Mérida, Yucatán, México</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Domicilio alterno</div>
+        <div class="info-value">Hospital Star Médica · Cuautitlán Izcalli, Estado de México</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Correo electrónico</div>
+        <div class="info-value">info@radiofrecuenciaarticular.com.mx</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Teléfono / WhatsApp</div>
+        <div class="info-value">+52 (999) 635-9889</div>
+      </div>
+    </div>
+    <p>
+      El Responsable es quien decide sobre el tratamiento de sus datos personales, determina las finalidades y los medios para ello, y garantiza el cumplimiento de los principios y deberes que establece la normativa aplicable.
+    </p>
+  </section>
+
+  <!-- 2. DATOS PERSONALES -->
+  <section class="section" id="datos">
+    <div class="section-number">Sección II</div>
+    <h2>Datos Personales que Recabamos</h2>
+    <p>
+      Para cumplir con las finalidades descritas en el presente aviso, el Responsable podrá recabar las siguientes categorías de datos personales, los cuales son proporcionados directamente por el titular, sus familiares o tutores legales, o son generados durante la prestación del servicio médico:
+    </p>
+
+    <h3>A. Datos de Identificación</h3>
+    <ul class="doc-list">
+      <li>Nombre completo</li>
+      <li>Fecha de nacimiento y edad</li>
+      <li>Sexo y género</li>
+      <li>Número de teléfono celular y/o fijo</li>
+      <li>Correo electrónico</li>
+      <li>Domicilio particular</li>
+      <li>RFC y/o CURP (cuando sea requerido para facturación)</li>
+      <li>Nombre y datos de contacto de familiar o tutor legal</li>
+    </ul>
+
+    <h3>B. Datos de Salud (Sensibles)</h3>
+    <div class="highlight-box">
+      <p>
+        <strong>⚠ Aviso sobre Datos Sensibles:</strong> Los datos relativos al estado de salud del paciente constituyen datos personales sensibles en términos del artículo 3, fracción VI de la LFPDPPP. Su tratamiento requiere consentimiento expreso y por escrito, el cual se recaba mediante la firma del consentimiento informado al momento de la primera consulta o procedimiento.
+      </p>
+    </div>
+    <ul class="doc-list">
+      <li>Historia clínica, antecedentes médicos y quirúrgicos</li>
+      <li>Diagnóstico médico y evolución clínica</li>
+      <li>Medicamentos, alergias y contraindicaciones</li>
+      <li>Resultados de estudios de laboratorio e imagen (radiografías, resonancias, tomografías)</li>
+      <li>Registros de cirugías, procedimientos artroscópicos o infiltraciones</li>
+      <li>Fotografías y videos clínicos con fines diagnósticos y de seguimiento</li>
+      <li>Información sobre discapacidades o condiciones de movilidad</li>
+    </ul>
+
+    <h3>C. Datos de Contacto y Comunicación</h3>
+    <ul class="doc-list">
+      <li>Historial de conversaciones vía WhatsApp Business relacionadas con el consultorio</li>
+      <li>Preferencias de horario para citas médicas</li>
+      <li>Canal de comunicación preferido (WhatsApp, llamada, correo electrónico)</li>
+      <li>Estado de confirmación de citas y notificaciones</li>
+    </ul>
+
+    <h3>D. Datos Financieros y de Facturación</h3>
+    <ul class="doc-list">
+      <li>RFC y datos fiscales para emisión de comprobantes (CFDI)</li>
+      <li>Información de seguro médico o institución pagadora (IMSS, ISSSTE, particular)</li>
+      <li>Número de póliza o afiliación</li>
+    </ul>
+
+    <p>
+      <strong>El Responsable no recaba datos personales de menores de edad de forma directa.</strong> Cuando el paciente sea menor de edad, los datos serán proporcionados por el padre, madre o tutor legal, quien deberá acreditar su relación con el menor.
+    </p>
+  </section>
+
+  <!-- 3. FINALIDADES -->
+  <section class="section" id="finalidades">
+    <div class="section-number">Sección III</div>
+    <h2>Finalidades del Tratamiento de Datos</h2>
+
+    <h3>Finalidades Primarias — Necesarias para la Prestación del Servicio</h3>
+    <p>Las siguientes finalidades son indispensables para la relación médico-paciente y para el otorgamiento de atención médica de calidad. El titular no puede oponerse a ellas sin que ello imposibilite la prestación del servicio:</p>
+    <ol class="doc-list">
+      <li><strong>Atención médica integral:</strong> Diagnóstico, tratamiento, seguimiento y rehabilitación de padecimientos ortopédicos y traumatológicos.</li>
+      <li><strong>Elaboración y resguardo del expediente clínico</strong> conforme a la NOM-004-SSA3-2012 y demás normativa sanitaria aplicable.</li>
+      <li><strong>Programación y gestión de citas médicas,</strong> incluyendo envío de recordatorios por WhatsApp y/o llamada telefónica.</li>
+      <li><strong>Comunicación de resultados de estudios,</strong> indicaciones médicas y seguimiento post-consulta o post-quirúrgico.</li>
+      <li><strong>Coordinación con hospitales, laboratorios e instituciones de salud</strong> para la prestación del servicio médico (Hospital Star Médica, Torre Cenit).</li>
+      <li><strong>Facturación electrónica (CFDI)</strong> y gestión de pagos por servicios médicos prestados.</li>
+      <li><strong>Coordinación con compañías de seguro médico</strong> para la cobertura y reembolso de procedimientos.</li>
+      <li><strong>Cumplimiento de obligaciones legales y sanitarias,</strong> incluyendo reporte a autoridades de salud cuando la ley así lo exija.</li>
+    </ol>
+
+    <h3>Finalidades Secundarias — Opcionales</h3>
+    <p>Las siguientes finalidades no son indispensables para la prestación del servicio. El titular puede oponerse a ellas en cualquier momento sin que ello afecte su atención médica:</p>
+    <ol class="doc-list">
+      <li><strong>Envío de información sobre prevención en salud</strong> ósea, muscular y articular de interés general.</li>
+      <li><strong>Comunicación sobre nuevos tratamientos, tecnologías y servicios</strong> disponibles en el consultorio (radiofrequencia, artroscopia, reemplazo articular).</li>
+      <li><strong>Elaboración de estadísticas clínicas anónimas</strong> para mejora continua del servicio y fines de investigación médica.</li>
+      <li><strong>Gestión de reseñas y testimonios</strong> en plataformas de salud (Doctoralia, Google), siempre con consentimiento expreso previo.</li>
+    </ol>
+    <p>
+      Si el titular no desea que sus datos personales sean tratados para las finalidades secundarias, puede manifestarlo enviando un correo electrónico a <strong>info@radiofrecuenciaarticular.com.mx</strong> o enviando un mensaje de WhatsApp con la palabra <strong>"NO PROMOCIÓN"</strong> al número del consultorio, en cualquier momento.
+    </p>
+  </section>
+
+  <!-- 4. TRANSFERENCIAS -->
+  <section class="section" id="transferencias">
+    <div class="section-number">Sección IV</div>
+    <h2>Transferencia de Datos Personales</h2>
+    <p>
+      El Responsable podrá transferir los datos personales del titular, sin requerir su consentimiento, en los casos previstos por el artículo 37 de la LFPDPPP, incluyendo:
+    </p>
+    <ul class="doc-list">
+      <li><strong>Hospitales y clínicas asociadas</strong> (Hospital Star Médica, Torre Cenit Medical Center) para la coordinación de cirugías, procedimientos e internamiento.</li>
+      <li><strong>Laboratorios e imagenología</strong> para la realización de estudios diagnósticos ordenados por el médico.</li>
+      <li><strong>Compañías aseguradoras y administradoras de riesgos,</strong> exclusivamente para la gestión de cobertura del paciente.</li>
+      <li><strong>Autoridades sanitarias (COFEPRIS, SSA, IMSS)</strong> cuando la ley lo ordene o exija para la protección de la salud pública.</li>
+      <li><strong>Proveedor de Sistema de Gestión de Relaciones con Clientes (CRM) — Kommo:</strong> datos de contacto e historial de comunicación, bajo contrato con cláusulas de confidencialidad y protección de datos.</li>
+      <li><strong>Proveedor de automatización — Make (Integromat):</strong> datos de agendamiento y comunicación, bajo estándares de seguridad internacionales (ISO 27001).</li>
+      <li><strong>Meta Platforms (WhatsApp Business Cloud API):</strong> nombre y número de teléfono para el envío de comunicaciones autorizadas por el titular, conforme a las Políticas de WhatsApp Business.</li>
+      <li><strong>Google LLC (Google Calendar):</strong> nombre, teléfono y fecha/hora de cita, para la gestión del agendamiento médico, bajo los Términos de Servicio de Google Workspace.</li>
+    </ul>
+    <p>
+      En todos los casos, el Responsable celebrará con los terceros receptores los acuerdos o contratos necesarios para garantizar que dichos datos sean tratados bajo niveles de protección equivalentes a los previstos en la LFPDPPP.
+    </p>
+    <p>
+      <strong>El Responsable no vende, cede ni comercializa datos personales a terceros con fines publicitarios o de mercadeo.</strong>
+    </p>
+  </section>
+
+  <!-- 5. DERECHOS ARCO -->
+  <section class="section" id="derechos">
+    <div class="section-number">Sección V</div>
+    <h2>Derechos ARCO del Titular</h2>
+    <p>
+      Todo titular de datos personales tiene derecho a ejercer, en cualquier momento, los derechos que la LFPDPPP reconoce bajo el acrónimo <strong>ARCO</strong>:
+    </p>
+    <div class="rights-grid">
+      <div class="right-card">
+        <div class="right-initial">A</div>
+        <div class="right-name">Acceso</div>
+        <div class="right-desc">Conocer qué datos personales suyos obran en poder del Responsable, el origen de los mismos y las finalidades de su tratamiento.</div>
+      </div>
+      <div class="right-card">
+        <div class="right-initial">R</div>
+        <div class="right-name">Rectificación</div>
+        <div class="right-desc">Solicitar la corrección de sus datos personales cuando éstos sean inexactos, incompletos o desactualizados.</div>
+      </div>
+      <div class="right-card">
+        <div class="right-initial">C</div>
+        <div class="right-name">Cancelación</div>
+        <div class="right-desc">Solicitar la supresión de sus datos del tratamiento, cuando considere que no están siendo utilizados conforme a los principios de la LFPDPPP.</div>
+      </div>
+      <div class="right-card">
+        <div class="right-initial">O</div>
+        <div class="right-name">Oposición</div>
+        <div class="right-desc">Oponerse al tratamiento de sus datos para finalidades específicas, en particular las finalidades secundarias descritas en la Sección III.</div>
+      </div>
+    </div>
+
+    <h3>¿Cómo ejercer sus derechos?</h3>
+    <p>
+      Para ejercer cualquiera de los derechos ARCO, el titular o su representante legal deberá enviar una solicitud por escrito a través de los medios habilitados para ello, con la siguiente información:
+    </p>
+    <ol class="doc-list">
+      <li>Nombre completo del titular y, en su caso, del representante legal con documento que acredite la representación.</li>
+      <li>Descripción clara y precisa del derecho que desea ejercer y de los datos personales a los que se refiere la solicitud.</li>
+      <li>Copia de identificación oficial vigente del titular (INE, pasaporte o cédula profesional).</li>
+      <li>Domicilio o correo electrónico para recibir la respuesta del Responsable.</li>
+      <li>Cualquier elemento o documento que facilite la localización de los datos personales.</li>
+    </ol>
+
+    <div class="info-block">
+      <div class="info-row">
+        <div class="info-label">Medio de envío</div>
+        <div class="info-value">Correo electrónico: <strong>info@radiofrecuenciaarticular.com.mx</strong><br>Presencial: Consultorio 1114, Torre Cenit Medical Center, Mérida</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Plazo de respuesta</div>
+        <div class="info-value"><strong>20 días hábiles</strong> a partir de la recepción de la solicitud completa</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Vigencia de la respuesta</div>
+        <div class="info-value">15 días hábiles para hacer efectiva la medida adoptada</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Sin costo</div>
+        <div class="info-value">El ejercicio de los derechos ARCO es <strong>gratuito</strong></div>
+      </div>
+    </div>
+
+    <h3>Revocación del Consentimiento</h3>
+    <p>
+      El titular puede revocar en cualquier momento el consentimiento otorgado para el tratamiento de sus datos personales, en la medida en que ello sea compatible con las obligaciones legales del Responsable (por ejemplo, el resguardo del expediente clínico está sujeto a plazos establecidos por la NOM-004-SSA3-2012).
+    </p>
+    <p>
+      Para revocar su consentimiento respecto del envío de mensajes de WhatsApp, el titular puede en cualquier momento responder <strong>"STOP"</strong> o <strong>"ALTO"</strong> a cualquier mensaje del consultorio y será dado de baja de los envíos automáticos de forma inmediata.
+    </p>
+
+    <h3>Derecho a acudir al INAI</h3>
+    <p>
+      Si el titular considera que su solicitud de derechos ARCO no fue atendida adecuadamente, o que el Responsable ha incumplido con la LFPDPPP, puede iniciar el procedimiento de Protección de Derechos ante el Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (<strong>INAI</strong>) en <a href="https://www.inai.org.mx" target="_blank" rel="noopener" style="color:var(--teal);">www.inai.org.mx</a>.
+    </p>
+  </section>
+
+  <!-- 6. CONSENTIMIENTO -->
+  <section class="section" id="consentimiento">
+    <div class="section-number">Sección VI</div>
+    <h2>Consentimiento</h2>
+    <p>
+      <strong>Para datos generales:</strong> El titular otorga su consentimiento tácito para el tratamiento de sus datos personales no sensibles para las finalidades primarias descritas en este aviso, al momento de proporcionar sus datos y solicitar atención médica en este consultorio, salvo que manifieste lo contrario.
+    </p>
+    <p>
+      <strong>Para datos sensibles de salud:</strong> El tratamiento de datos sensibles (historia clínica, diagnósticos, resultados de estudios) requiere consentimiento expreso y por escrito, el cual se recaba mediante el <em>Consentimiento Informado</em> firmado por el paciente o su representante legal al inicio de la relación médico-paciente.
+    </p>
+    <p>
+      <strong>Para comunicaciones vía WhatsApp:</strong> Al proporcionar su número de teléfono y comunicarse con el consultorio mediante WhatsApp, el titular otorga su consentimiento para recibir mensajes relacionados con la atención médica, gestión de citas, recordatorios y comunicaciones del consultorio a través de dicho canal.
+    </p>
+    <div class="highlight-box">
+      <p>
+        <strong>Nota para usuarios de WhatsApp:</strong> Las comunicaciones enviadas a través de WhatsApp Business utilizan la plataforma Meta Platforms (WhatsApp Cloud API) conforme a las Políticas de Uso Aceptable de WhatsApp Business. Los mensajes se limitan a comunicaciones de salud relacionadas directamente con la atención médica y gestión de citas del consultorio. El Responsable no enviará publicidad de terceros ni cederá el número de teléfono a anunciantes.
+      </p>
+    </div>
+  </section>
+
+  <!-- 7. COOKIES -->
+  <section class="section" id="cookies">
+    <div class="section-number">Sección VII</div>
+    <h2>Uso de Tecnologías de Rastreo</h2>
+    <p>
+      En caso de que el Responsable utilice un sitio web para la prestación de servicios o comunicación con pacientes, dicho sitio podrá hacer uso de <em>cookies</em>, <em>web beacons</em> u otras tecnologías de seguimiento con las siguientes finalidades:
+    </p>
+    <ul class="doc-list">
+      <li><strong>Cookies estrictamente necesarias:</strong> Permiten la navegación básica del sitio y no pueden desactivarse.</li>
+      <li><strong>Cookies de análisis:</strong> Miden el tráfico y el comportamiento de navegación para mejorar la experiencia del usuario (Google Analytics). Los datos son anónimos.</li>
+      <li><strong>Cookies de preferencia:</strong> Recuerdan la configuración del usuario (idioma, región).</li>
+    </ul>
+    <p>
+      El titular puede controlar y/o eliminar las cookies desde la configuración de su navegador. La desactivación de cookies no funcionales no afectará el acceso a los servicios esenciales del sitio.
+    </p>
+  </section>
+
+  <!-- 8. CAMBIOS -->
+  <section class="section" id="cambios">
+    <div class="section-number">Sección VIII</div>
+    <h2>Modificaciones al Aviso de Privacidad</h2>
+    <p>
+      El Responsable se reserva el derecho de efectuar, en cualquier momento, modificaciones o actualizaciones al presente Aviso de Privacidad para atender cambios legislativos, reglamentarios, políticas internas, nuevas finalidades o nuevos requerimientos para la prestación u ofrecimiento de los servicios.
+    </p>
+    <p>
+      Estas modificaciones estarán disponibles al público en el mismo dominio web donde se publica el presente aviso. Se notificará al titular sobre cambios relevantes mediante:
+    </p>
+    <ul class="doc-list">
+      <li>Publicación en el sitio web del consultorio con indicación de la fecha de actualización.</li>
+      <li>Aviso directo por correo electrónico o WhatsApp, cuando el cambio sea significativo y afecte derechos del titular.</li>
+    </ul>
+    <p>
+      El uso continuado de los servicios del consultorio después de la publicación de cualquier modificación constituirá aceptación de los términos actualizados por parte del titular.
+    </p>
+  </section>
+
+  <!-- 9. CONTACTO -->
+  <section class="section" id="contacto">
+    <div class="section-number">Sección IX</div>
+    <h2>Contacto y Ejercicio de Derechos</h2>
+    <p>
+      Para cualquier duda, comentario o solicitud relacionada con el tratamiento de sus datos personales y el ejercicio de sus derechos ARCO, el titular puede contactar al Responsable a través de los siguientes medios:
+    </p>
+    <div class="contact-final">
+      <h3>Dr. Rey Armando Cárdenas Acuña</h3>
+      <p>Responsable de Datos Personales · Ortopedia y Traumatología · Mérida, Yucatán</p>
+      <div class="contact-chips">
+        <a class="contact-chip" href="mailto:info@radiofrecuenciaarticular.com.mx">
+          <span class="chip-icon">✉</span> info@radiofrecuenciaarticular.com.mx
+        </a>
+        <a class="contact-chip" href="https://wa.me/529996359889">
+          <span class="chip-icon">💬</span> WhatsApp Consultorio
+        </a>
+        <div class="contact-chip">
+          <span class="chip-icon">📍</span> Consultorio 1114, Torre Cenit, Mérida
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Dr. Rey A
